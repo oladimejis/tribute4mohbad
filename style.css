@@ -1,0 +1,140 @@
+* {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.nav {
+    background-color: black;
+    /* color: antiquewhite; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+img.rip {
+    margin: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: red;
+    border-radius: 50%;
+    transition: transform .1s; /*animation*/
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+
+}
+
+.paragraph {
+    padding: 20px;
+    margin: 20px;
+}
+
+img.rip:hover {
+    /* opacity: 0.5; */
+    transform: sacale(1.5); /*Note (150%zoom - if the zoom is too large, it will go outside the viewport)*/
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 900;
+    font-style: italic;      
+    padding-top: 50px;
+    margin-left: 700px;
+}
+
+.content {
+    color: grey;
+    font-weight: 800;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    margin-left: 100px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+img.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+  width: 50%;
+    /* width: 645px;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto; */
+    /* vertical-align: middle; */
+}
+
+ul {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    border: 2px solid black;
+}
+
+li a{
+    /* padding: 30px; */
+    padding-top: 10px;
+    transition: transform .2s; /* Animation */
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    /* display: flex; */
+    color: blue;
+    font-weight: 700;
+    text-decoration: none;
+    /* transition: transform .2s; Animation */
+}
+
+li a:hover {
+    color: rgb(30, 49, 49);
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
+    
+label textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+label{
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 200px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    color: #999;
+    position: absolute;
+    right: 25%;
+    left: 25%;
+
+}
